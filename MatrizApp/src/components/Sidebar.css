@@ -1,0 +1,20 @@
+/* Sidebar */
+.sidebar {
+    width: 250px;
+    background-color: #c5c7ca;
+    color: white;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: width 0.3s ease-in-out;
+  }
+  
+  /* Contenedor del contenido principal */
+  .content {
+    display: flex;
+    flex: 1;
+    padding: 1px;
+    transition: margin-left 0.3s ease-in-out;
+  }
+  

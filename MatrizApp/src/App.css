@@ -1,0 +1,30 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow: hidden; /* Evitar cualquier desbordamiento */
+}
+
+.main-layout {
+  display: flex;
+  flex-grow: 1;
+}
+
+.main-layout .sidebar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  height: 100vh; /* Asegurarse de que ocupe toda la altura */
+  z-index: 1;
+}
+
+.main-layout .content {
+  margin-left: 20px; /* Alinear con el tamaño del sidebar abierto */
+  transition: margin-left 0.3s ease;
+  width: 100%; /* Asegura que el contenido ocupe el resto del espacio */
+}
+
+.main-layout.collapsed .content {
+  margin-left: 10px; /* Ajusta el margen cuando el sidebar está colapsado */
+}

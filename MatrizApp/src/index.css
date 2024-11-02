@@ -1,0 +1,31 @@
+/* Reseteo básico de CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Fuente y colores globales */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #d1c9c9;
+    line-height: 1.6;
+  }
+  
+  /* Enlaces */
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  a:hover {
+    color: #007BFF;
+  }
+  
+  /* Espaciado estándar para contenedores */
+  .container {
+    margin: 20px;
+    padding: 20px;
+  }
+  

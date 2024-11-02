@@ -1,0 +1,62 @@
+/* Sidebar */
+.sidebar {
+  width: 250px;
+  background-color: #c5c7ca;
+  color: white;
+  padding: 2px;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  border-right: none; /* Elimina el borde derecho */
+  box-shadow: none; /* Elimina cualquier sombra */
+}
+
+/* Contenedor del contenido principal */
+.content {
+  margin-left: 250px; /* Alinea el contenido al lado del sidebar */
+  padding: 1px; /* Añade relleno al contenido */
+}
+
+/* Menú principal */
+.menu {
+  list-style-type: none;
+  padding: 0;
+  margin: 0; /* Elimina el margen */
+}
+
+/* Elementos del menú */
+.menu-item {
+  padding: 1px;
+  cursor: pointer;
+  background-color: #0b7ef1;
+  margin-bottom: 1px;
+  border-radius: 1px;
+  border: none; /* Elimina cualquier borde */
+}
+
+/* Hover en elementos del menú */
+.menu-item:hover {
+  background-color: #6c757d;
+}
+
+/* Submenú */
+.submenu {
+  list-style-type: none;
+  padding-left: 1px;
+  margin: 0; /* Elimina el margen */
+}
+
+/* Elementos del submenú */
+.submenu li {
+  padding: 8px;
+  background-color: #999a9b;
+  margin-bottom: 5px;
+  border-radius: 4px;
+  border: none; /* Elimina cualquier borde */
+}
+
+/* Hover en elementos del submenú */
+.submenu li:hover {
+  background-color: #eef0f1;
+}
